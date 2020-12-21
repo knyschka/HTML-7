@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Формы на веб-странице3</title>
+</head>
+<body bgcolor=#e2efcd>
+<h2> Для входа на сайт укажите свои данные:</h2>
+<form name="form1" method="get" action="index1.html">
+ <p><b>Фамилия имя:</b><input type="text" name="name"></p>
+ <p><b>Возраст:</b>
+ <select name="select">
+   <option>12-16</option>
+   <option>17-25</option>
+   <option>26-40</option>
+   <option>более 40</option>
+ </select>
+ </p>
+ <p><b>Пол:</b>
+  <input name="sex" type="radio" value="male"> мужской
+  <input name="sex" type="radio" value="female"> женский</p>
+ <b>Введите Ваш контактный телефон:&nbsp;</b>
+  <INPUT type="TEXT" NAME="phone" SIZE="15" MAXLENGTH="12">
+   <p><b>Краткая информация:</b><TEXTAREA name="info" rows="3" cols="32"></TEXTAREA></p>
+  <BR>
+    <INPUT type="checkbox" NAME="checkbox1" VALUE="checkbox_value1"> скрыть Ваш почтовый ящик
+  <BR>
+    <INPUT type="checkbox" NAME="checkbox2" VALUE="checkbox_value2" CHECKED> получать новости нашего сайта
+  <BR>
+  <BR>
+    <b>Введите Ваш пароль: &nbsp;</b>
+    <INPUT type="password" NAME="secret_word" SIZE="30" MAXLENGTH="30">
+	<BR>
+    <BR>
+	<INPUT type="reset" VALUE="Очистить"> <INPUT type="submit" VALUE="Войти на сайт"></form>
+</body>
+</html>
